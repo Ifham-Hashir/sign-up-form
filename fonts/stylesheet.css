@@ -1,8 +1,8 @@
 @font-face {
-    font-family: 'Norse';
-    src: url('Norse-Bold.woff2') format('woff2'),
-        url('Norse-Bold.woff') format('woff');
-    font-weight: bold;
+    font-family: 'Assassin$';
+    src: url('Assassin.woff2') format('woff2'),
+        url('Assassin.woff') format('woff');
+    font-weight: normal;
     font-style: normal;
     font-display: swap;
 }
