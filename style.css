@@ -8,6 +8,26 @@ body{
   display: flex;
 }
 
-img {
+.bg {
   height: 100vh;
+  width: 400px;
+}
+
+.left {
+  position: relative;
+}
+
+.logo-bg {
+  position: absolute;
+  height: 100px;
+  width: 400px;
+  background-color: rgba(41, 41, 41, 0.3);
+  top: 250px;
+}
+
+.logo {
+  position: absolute;
+  height: 80px;
+  width: 120px;
+  top: 10px;
 }
