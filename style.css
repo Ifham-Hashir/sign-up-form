@@ -9,6 +9,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  overflow-y:hidden;
 }
 
 body{
@@ -23,6 +24,8 @@ body{
 
 .left {
   position: relative;
+  padding: 0px;
+  margin: 0px;
 }
 
 .logo-bg {
@@ -88,8 +91,8 @@ input {
   min-width: 125px;
   padding: 0.5rem;
   transition: background-color 0.5s ease-out;
-  font-family: "Assassin", serif;
-  font-weight: 600;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 400;
 }
 
 input:optional, input:required{
