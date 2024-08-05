@@ -58,7 +58,6 @@ body{
 .right {
   height: 60vh;
   width: 650px;
-  /* border: 1px solid red; */
   padding: 10px;
   margin: 20px;
 }
@@ -70,11 +69,10 @@ body{
   margin-bottom: 30px;
 }
 
-form{
+.label-input{
   display: flex;
   justify-content: space-between;
-  width: 500px;
-  /* border: 1px solid blue; */
+  width: 600px;
   font-family: "Assassin";
   font-weight: bolder;
   font-size: 18px;
@@ -82,4 +80,60 @@ form{
 
 input {
   margin-bottom: 20px;
+  border: 2px solid;
+  border-radius: 4px;
+  font-size: 20px;
+  margin-bottom: 20px;
+  min-width: 125px;
+  padding: 0.5rem;
+  transition: background-color 0.5s ease-out;
+  font-family: "Assassin", serif;
+  font-weight: 600;
+}
+
+input:optional, input:required{
+  border-color: gray;
+}
+
+input:focus:valid{
+  outline: none;
+  border-color: rgb(102, 216, 102);
+}
+
+input:focus:invalid {
+  outline: none;
+  border-color: red;
+}
+
+button{
+  background-color: #13aa52;
+  border: 1px solid #13aa52;
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, .1) 0 2px 4px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  font-family: "Assassin", -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  outline: none;
+  outline: 0;
+  padding: 10px 25px;
+  text-align: center;
+  transform: translateY(0);
+  transition: transform 150ms, box-shadow 150ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+button:hover {
+  box-shadow: rgba(0, 0, 0, .15) 0 3px 9px 0;
+  transform: translateY(-2px);
+}
+
+@media (min-width: 768px) {
+  button {
+    padding: 10px 30px;
+  }
 }
