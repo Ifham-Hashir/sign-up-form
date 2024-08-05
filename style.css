@@ -13,11 +13,12 @@
 
 body{
   display: flex;
+  align-items: center;
 }
 
 .bg {
   height: 100vh;
-  width: 400px;
+  width: 500px;
 }
 
 .left {
@@ -27,9 +28,13 @@ body{
 .logo-bg {
   position: absolute;
   height: 100px;
-  width: 400px;
+  width: 500px;
   background-color: rgba(0, 0, 0, 0.3);
   top: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
 }
 
 .logo {
@@ -47,6 +52,34 @@ body{
   display: flex;
   position: absolute;
   justify-content: space-evenly;
-  left:10px;
   top: 10px;
+}
+
+.right {
+  height: 60vh;
+  width: 650px;
+  /* border: 1px solid red; */
+  padding: 10px;
+  margin: 20px;
+}
+
+.head-text{
+  font-family: "Assassin", serif;
+  font-size: 30px;
+  font-weight: bolder;
+  margin-bottom: 30px;
+}
+
+form{
+  display: flex;
+  justify-content: space-between;
+  width: 500px;
+  /* border: 1px solid blue; */
+  font-family: "Assassin";
+  font-weight: bolder;
+  font-size: 18px;
+}
+
+input {
+  margin-bottom: 20px;
 }
